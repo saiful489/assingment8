@@ -4,7 +4,7 @@ import "./Products.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
-  const [carts, setCart] = useState([]);
+  const [cart, setCart] = useState([]);
   const [random, setRandom] = useState([]);
 
   const handleRandomProduct = () => {
