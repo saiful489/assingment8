@@ -8,7 +8,7 @@ const Products = () => {
   const [random, setRandom] = useState([]);
 
   const handleRandomProduct = () => {
-    const randomProduct = cart[Math.floor(Math.random() * cart.length)];
+    const randomProduct = cart[Math.floor(Math.floor() * cart.length)];
     setRandom(randomProduct);
   };
 
