@@ -1,4 +1,5 @@
 import './App.css'
+import AboutReact from './components/AboutReact/AboutReact';
 import Products from "./components/Products/Products";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <p> pick 4 Bat</p>
       </div>
       <Products />
+      <AboutReact/>
       
     </div>
   );
